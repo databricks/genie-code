@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a problem with a released build.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a report. Please do not include credentials, tokens, internal URLs, or any confidential information in this issue.
+  - type: input
+    id: version
+    attributes:
+      label: Release version
+      description: Which release are you using? (see the Releases page)
+      placeholder: e.g. v1.2.3
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the problem, including what you expected to happen instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce the behavior?
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system and any other relevant details.
+      placeholder: e.g. macOS 14, Linux (Ubuntu 22.04)
+    validations:
+      required: false
