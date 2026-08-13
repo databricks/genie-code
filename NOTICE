@@ -1,0 +1,30 @@
+Copyright (2026) Databricks, Inc. This Software includes software developed at Databricks (https://www.databricks.com/) and its use is subject to the included LICENSE file.
+
+Dependencies are grouped below by license. The full text of each license is available via the link in the section header.
+
+================================================================================
+MIT License
+================================================================================
+This Software contains code from the following open source projects, licensed under the MIT license (https://opensource.org/licenses/MIT).
+
+Package: Ratatui
+Project URL: https://github.com/ratatui/ratatui
+Copyright: 2016-2022 Florian Dehau; 2023-2025 The Ratatui Developers
+
+================================================================================
+Apache License 2.0
+================================================================================
+This Software contains code from the following open source projects, licensed under the Apache License 2.0 license (https://www.apache.org/licenses/LICENSE-2.0).
+
+Package: OpenAI Codex
+Project URL: https://github.com/openai/codex
+Copyright: 2025 OpenAI
+
+================================================================================
+Databricks (DB) License
+================================================================================
+This Software contains code from the following open source projects, licensed under the Databricks (DB) License (https://www.databricks.com/legal/db-license).
+
+Package: Databricks CLI
+Project URL: https://github.com/databricks/cli
+Copyright: 2022 Databricks, Inc.

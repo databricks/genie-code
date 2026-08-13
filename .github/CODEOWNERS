@@ -1,8 +1,0 @@
-# Code owners for databricks/genie-code.
-# Every pull request requires review from an owner listed here before it can be merged.
-#
-# NOTE: the team below is a placeholder. It must exist under the databricks org
-# and have write access to this repository before "Require review from Code Owners"
-# branch protection can gate merges. Replace with the real maintainer team handle.
-
-* @databricks/genie-code-maintainers
