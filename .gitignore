@@ -1,0 +1,20 @@
+# Local agent / editor state (never publish)
+.isaac/
+.claude/
+.vscode/
+.idea/
+
+# Local environment and secrets
+.env
+.env.*
+*.local
+.databrickscfg
+*.pem
+*.key
+id_rsa*
+credentials.json
+service-account*.json
+
+# OS cruft
+.DS_Store
+Thumbs.db
